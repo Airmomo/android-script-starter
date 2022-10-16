@@ -1,0 +1,6 @@
+adb:
+  path: /Users/caizhuohan/PycharmProjects/GamerHelper/tools/api33/platform-tools-mac/adb
+log:
+  level: debug
+syslog:
+  level: debug
