@@ -45,7 +45,7 @@ def initDeviceAndRun(device_name, module):
         :param module: 启动的应用及模式
         :return: None
     """
-    android_device = AndroidDevice(adbConfig.ADB_PATH, device_name, 1280, 720, logConfig.LOGGER_LEVEL)
+    android_device = AndroidDevice(adbConfig.ADB_PATH, device_name, 720, 1280, logConfig.LOGGER_LEVEL)
     app_thread = AppStarter(android_device, module)
     app_thread.run()
     return app_thread
