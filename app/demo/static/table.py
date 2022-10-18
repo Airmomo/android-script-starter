@@ -1,7 +1,7 @@
 """
     资源数据库
 """
-from plugin.tablerEx import TableColorItem, TableImageItem, TableOcrCheckItem, TableOcrReadItem, TablePositionItem
+from plugin.tablerEx import TableColorItem, TableImageItem, TableOcrCheckItem, TableOcrReadItem, TablePositionItem, TableRangeItem
 
 
 """
@@ -19,5 +19,6 @@ Table = {
             "文本校验": TableOcrCheckItem(286, 842, 416, 881, "you love"),
             "文本识别": TableOcrReadItem(286, 842, 416, 881),
             "坐标": TablePositionItem(520, 520),
+            "范围": TableRangeItem(250, 250, 520, 520),
         },
 }
